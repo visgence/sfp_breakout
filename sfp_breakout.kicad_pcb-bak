@@ -2,8 +2,8 @@
 
   (general
     (links 63)
-    (no_connects 47)
-    (area 39.924999 39.924999 120.075001 120.075001)
+    (no_connects 38)
+    (area 0 0 0 0)
     (thickness 1.6)
     (drawings 4)
     (tracks 0)
@@ -132,7 +132,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5A1458AA)
-    (at 82.842857 106.475)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5A1451E0)
@@ -168,7 +168,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5A1458B0)
-    (at 86.522857 106.475)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5A1450E2)
@@ -204,7 +204,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5A1458B6)
-    (at 89.985001 106.475)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5A145214)
@@ -240,7 +240,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5A1458BC)
-    (at 93.452857 106.475)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5A145370)
@@ -276,7 +276,7 @@
   )
 
   (module Capacitors_SMD:C_0603 (layer F.Cu) (tedit 59958EE7) (tstamp 5A1458C2)
-    (at 96.915001 106.475)
+    (at 148.5011 105.0036)
     (descr "Capacitor SMD 0603, reflow soldering, AVX (see smccp.pdf)")
     (tags "capacitor 0603")
     (path /5A1453AF)
@@ -564,7 +564,7 @@
   )
 
   (module visgence_parts:SM0603_VIS (layer F.Cu) (tedit 52A161E2) (tstamp 5A145904)
-    (at 82.406501 110.67875)
+    (at 148.5011 105.0036)
     (path /5A14512D)
     (attr smd)
     (fp_text reference L1 (at 0 -1.016) (layer F.SilkS)
@@ -589,7 +589,7 @@
   )
 
   (module visgence_parts:SM0603_VIS (layer F.Cu) (tedit 52A161E2) (tstamp 5A14590A)
-    (at 85.216501 110.67875)
+    (at 148.5011 105.0036)
     (path /5A14529D)
     (attr smd)
     (fp_text reference L2 (at 0 -1.016) (layer F.SilkS)
