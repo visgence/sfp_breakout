@@ -269,18 +269,18 @@ Connection ~ 2050 3000
 $Comp
 L GND #PWR09
 U 1 1 5A14597C
-P 1800 2200
-F 0 "#PWR09" H 1800 1950 50  0001 C CNN
-F 1 "GND" H 1800 2050 50  0000 C CNN
-F 2 "" H 1800 2200 50  0001 C CNN
-F 3 "" H 1800 2200 50  0001 C CNN
-	1    1800 2200
+P 1650 2200
+F 0 "#PWR09" H 1650 1950 50  0001 C CNN
+F 1 "GND" H 1650 2050 50  0000 C CNN
+F 2 "" H 1650 2200 50  0001 C CNN
+F 3 "" H 1650 2200 50  0001 C CNN
+	1    1650 2200
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1800 2200 1800 2100
+	1650 2200 1650 2100
 Wire Wire Line
-	1800 2100 2175 2100
+	1650 2100 2175 2100
 $Comp
 L GND #PWR010
 U 1 1 5A1459D9
@@ -452,4 +452,158 @@ Wire Wire Line
 	7650 3725 8025 3725
 Wire Wire Line
 	8025 3725 8025 3775
+$Comp
+L GND #PWR016
+U 1 1 5A347BC3
+P 2325 4525
+F 0 "#PWR016" H 2325 4275 50  0001 C CNN
+F 1 "GND" H 2325 4375 50  0000 C CNN
+F 2 "" H 2325 4525 50  0001 C CNN
+F 3 "" H 2325 4525 50  0001 C CNN
+	1    2325 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2325 4525 2325 4225
+Wire Wire Line
+	2325 4225 2450 4225
+$Comp
+L +3.3V #PWR017
+U 1 1 5A347D72
+P 3225 3750
+F 0 "#PWR017" H 3225 3600 50  0001 C CNN
+F 1 "+3.3V" H 3225 3890 50  0000 C CNN
+F 2 "" H 3225 3750 50  0001 C CNN
+F 3 "" H 3225 3750 50  0001 C CNN
+	1    3225 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 3825 3225 3825
+Wire Wire Line
+	3225 3825 3225 3750
+Text GLabel 2100 2200 0    43   Input ~ 0
+TxFault
+Text GLabel 2325 3825 0    43   Input ~ 0
+TxFault
+Text GLabel 2100 2300 0    43   Input ~ 0
+TxDisable
+Text GLabel 2100 2400 0    43   Input ~ 0
+Def-2
+Text GLabel 2100 2500 0    43   Input ~ 0
+Def-1
+Text GLabel 2100 2600 0    43   Input ~ 0
+Def-0
+Text GLabel 2100 2700 0    43   Input ~ 0
+Rate-Sel
+Text GLabel 2100 2800 0    43   Input ~ 0
+LOS
+Wire Wire Line
+	2100 2200 2175 2200
+Wire Wire Line
+	2175 2300 2100 2300
+Wire Wire Line
+	2175 2400 2100 2400
+Wire Wire Line
+	2175 2500 2100 2500
+Wire Wire Line
+	2175 2600 2100 2600
+Wire Wire Line
+	2175 2700 2100 2700
+Wire Wire Line
+	2175 2800 2100 2800
+Text GLabel 2325 3925 0    43   Input ~ 0
+TxDisable
+Text GLabel 3000 3925 2    43   Input ~ 0
+Def-2
+Text GLabel 3000 4025 2    43   Input ~ 0
+Def-1
+Text GLabel 3000 4125 2    43   Input ~ 0
+Def-0
+Text GLabel 2325 4025 0    43   Input ~ 0
+Rate-Sel
+Text GLabel 2325 4125 0    43   Input ~ 0
+LOS
+$Comp
+L GND #PWR018
+U 1 1 5A348BA8
+P 3075 4525
+F 0 "#PWR018" H 3075 4275 50  0001 C CNN
+F 1 "GND" H 3075 4375 50  0000 C CNN
+F 2 "" H 3075 4525 50  0001 C CNN
+F 3 "" H 3075 4525 50  0001 C CNN
+	1    3075 4525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 4225 3075 4225
+Wire Wire Line
+	3075 4225 3075 4525
+Wire Wire Line
+	2450 3825 2325 3825
+Wire Wire Line
+	2450 3925 2325 3925
+Wire Wire Line
+	2450 4025 2325 4025
+Wire Wire Line
+	2450 4125 2325 4125
+Wire Wire Line
+	2950 4125 3000 4125
+Wire Wire Line
+	2950 4025 3000 4025
+Wire Wire Line
+	2950 3925 3000 3925
+$Comp
+L LED D1
+U 1 1 5A3491BE
+P 6200 3275
+F 0 "D1" H 6200 3375 50  0000 C CNN
+F 1 "LED" H 6200 3175 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 6200 3275 50  0001 C CNN
+F 3 "" H 6200 3275 50  0001 C CNN
+	1    6200 3275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R1
+U 1 1 5A3492D1
+P 6200 2900
+F 0 "R1" V 6280 2900 50  0000 C CNN
+F 1 "R" V 6200 2900 50  0000 C CNN
+F 2 "visgence_parts:SM0603_VIS" V 6130 2900 50  0001 C CNN
+F 3 "" H 6200 2900 50  0001 C CNN
+	1    6200 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5625 2700 6200 2700
+Wire Wire Line
+	6200 2700 6200 2750
+Connection ~ 5625 2700
+Wire Wire Line
+	6200 3050 6200 3125
+$Comp
+L GND #PWR019
+U 1 1 5A3494E2
+P 6200 3550
+F 0 "#PWR019" H 6200 3300 50  0001 C CNN
+F 1 "GND" H 6200 3400 50  0000 C CNN
+F 2 "" H 6200 3550 50  0001 C CNN
+F 3 "" H 6200 3550 50  0001 C CNN
+	1    6200 3550
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3425 6200 3550
+$Comp
+L Conn_02x05_Odd_Even J5
+U 1 1 5A349A20
+P 2650 4025
+F 0 "J5" H 2700 4325 50  0000 C CNN
+F 1 "Conn" H 2700 3725 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x05_Pitch2.54mm" H 2650 4025 50  0001 C CNN
+F 3 "" H 2650 4025 50  0001 C CNN
+	1    2650 4025
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
